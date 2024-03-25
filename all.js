@@ -24,5 +24,11 @@ function showdiv(){
     });
 
 }
+function showdiv2(){
+  var side=document.getElementById('dissapear');
+  if(side.style.display = 'none' || side.style.display=='') { 
+  side.style.display ='block';
+  }
+}
 
 
